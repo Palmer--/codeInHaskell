@@ -23,6 +23,6 @@ main :: IO ()
 main = do
     hSetBuffering stdout NoBuffering -- DO NOT REMOVE
     input <- readLines
-    let res = findClosest input
-    putStrLn (show res)
-        
+    let result = findClosest input
+    putStrLn (show result)
+    
